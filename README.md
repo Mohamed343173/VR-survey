@@ -60,35 +60,40 @@ A comprehensive full-stack application for conducting VR experience surveys with
 ### Backend Setup
 1. Navigate to the project root:
    ```bash
-   cd vr-survey-system
+   cd survey
    ```
 
-2. Install PHP dependencies:
+2. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+3. Install PHP dependencies:
    ```bash
    composer install
    ```
 
-3. Copy environment file:
+4. Copy environment file:
    ```bash
    cp .env.example .env
    ```
 
-4. Generate application key:
+5. Generate application key:
    ```bash
    php artisan key:generate
    ```
 
-5. Run database migrations:
+6. Run database migrations:
    ```bash
    php artisan migrate
    ```
 
-6. Seed the database with questions and admin user:
+7. Seed the database with questions and admin user:
    ```bash
    php artisan db:seed
    ```
 
-7. Start the Laravel development server:
+8. Start the Laravel development server:
    ```bash
    php artisan serve
    ```
@@ -96,6 +101,7 @@ A comprehensive full-stack application for conducting VR experience surveys with
 ### Frontend Setup
 1. Navigate to the frontend directory:
    ```bash
+   cd ..
    cd frontend
    ```
 
@@ -163,7 +169,7 @@ A comprehensive full-stack application for conducting VR experience surveys with
 
 After running the seeders, you can log in as admin with:
 - **Email**: admin@vrsurvey.com
-- **Password**: password
+- **Password**: set in your seeder/environment (change it before production use)
 
 ## Survey Questions
 
