@@ -33,6 +33,32 @@ A comprehensive full-stack application for conducting VR experience surveys with
 - **Interactive Components**: Hover effects and smooth transitions
 - **Chart.js Integration**: Beautiful data visualization
 
+## Screenshots
+
+### Landing Page
+
+![Landing Page](docs/screenshots/landing-page.png.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](docs/screenshots/admin-dashboard.png.png)
+
+### Survey Builder
+
+![Survey Builder](docs/screenshots/survey-builder.png.png)
+
+### User Dashboard
+
+![User Dashboard - Overview](docs/screenshots/user-dashboard1.png.png)
+![User Dashboard - Surveys](docs/screenshots/user-dashboard2.png.png)
+![User Dashboard - Achievements](docs/screenshots/user-dashboard3.png.png)
+
+### Authentication Pages
+
+![Admin Login](docs/screenshots/admin-login.png)
+![Create Account](docs/screenshots/creat-account.png)
+![User Login](docs/screenshots/userl-login.png)
+
 ## Technology Stack
 
 ### Backend (Laravel 12)
